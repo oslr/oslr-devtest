@@ -1,7 +1,13 @@
 # oslr-devtest
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app is a short test for potential Oslr developers.
+The app is a basic Ember app, created with `ember new`. It uses Ember version 3.0.0.
+
+Running the app (as outlined by the default Ember readme below) will show you an image of a wireframe sent to us by our UX team. It is a simple search page, where typing the name of a user in the search bar will filter a list of users.
+
+We want you to build this page. There is a simple mocked-up API in the app, using Ember Mirage (http://www.ember-cli-mirage.com/) - requests to '/users' will return a list of 20 users as JSON, assuming you are using Ember's Model object.
+
+Please don't worry about the page design - we are just looking for something that works. It should not take you too long. Do get in touch if you have any questions.
 
 ## Prerequisites
 

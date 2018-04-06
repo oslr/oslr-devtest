@@ -9,5 +9,14 @@ export default Factory.extend({
       name = `Doctor ${i+1}`;
     }
     return name;
+  },
+
+  jobTitle(i){
+    var jt;
+    if(i < 10){
+      jt = "Medical Student";
+    }else{
+      jt = "FY1 Doctor";
+    }
   }
 });
